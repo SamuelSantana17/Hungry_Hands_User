@@ -1,0 +1,50 @@
+name: hungry_hands
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.4.2
+  google_sign_in: ^6.1.0
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+ 
+ 
+  firebase_analytics: ^10.1.0
+ 
+  cloud_firestore: ^4.3.1
+  google_fonts: ^4.0.1 
+  font_awesome_flutter: ^10.3.0
+  firebase_core_platform_interface: ^4.5.3
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  get: ^4.6.5
+  firebase_database: ^10.0.9
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/Hungry Hands.png"
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  
